@@ -1,0 +1,30 @@
+GET http://localhost:3050/data
+
+###
+GET http://localhost:3050/data/81
+
+###
+POST http://localhost:3050/data
+Content-Type: application/json
+
+{
+    "propietario": "Juan",
+    "marca": "Seat",
+    "modelo": "Leon",
+    "matricula": "8888NNN"
+}
+
+###
+PUT http://localhost:3050/data/111
+Content-Type: application/json
+
+{
+    "propietario": "Juan",
+    "marca": "Cupra",
+    "modelo": "Leon",
+    "matricula": "8888NNN"
+}
+
+###
+DELETE http://localhost:3050/data/81
+
