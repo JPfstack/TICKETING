@@ -10,12 +10,12 @@ app.use(bodyParser.json());
 
 //mysqlheroku
 const connection = mysql.createConnection({
-    host: "eu-cdbr-west-03.cleardb.net",
-    user: "b6611ca55c2850",
-    password: "22de0b51",
-    database: "heroku_000034b1603f252"
+    host: "us-cdbr-east-06.cleardb.net",
+    user: "b28577ceb8e607",
+    password: "a030f8fb",
+    database: "heroku_687d24e53797995"
 });
-
+//mysql://b28577ceb8e607:a030f8fb@us-cdbr-east-06.cleardb.net/heroku_687d24e53797995?reconnect=true
 //Routes
 app.get('/data', (req, res) => {
     const sql = 'SELECT * FROM datos';
