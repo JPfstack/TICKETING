@@ -1,14 +1,14 @@
-GET http://localhost:3050/data
+GET https://sleepy-headland-54109.herokuapp.com/data
 
 ###
 
-GET http://localhost:3050/
+GET https://sleepy-headland-54109.herokuapp.com/
 
 ###
-GET http://localhost:3050/data/81
+GET https://sleepy-headland-54109.herokuapp.com/data/81
 
 ###
-POST http://localhost:3050/data
+POST https://sleepy-headland-54109.herokuapp.com/data
 Content-Type: application/json
 
 {
@@ -19,7 +19,7 @@ Content-Type: application/json
 }
 
 ###
-PUT http://localhost:3050/data/111
+PUT https://sleepy-headland-54109.herokuapp.com/data/111
 Content-Type: application/json
 
 {
@@ -30,5 +30,5 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3050/data/81
+DELETE https://sleepy-headland-54109.herokuapp.com/data/81
 
