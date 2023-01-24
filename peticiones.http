@@ -1,6 +1,10 @@
 GET http://localhost:3050/data
 
 ###
+
+GET http://localhost:3050/
+
+###
 GET http://localhost:3050/data/81
 
 ###

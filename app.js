@@ -17,6 +17,12 @@ const connection = mysql.createConnection({
 });
 //mysql://b28577ceb8e607:a030f8fb@us-cdbr-east-06.cleardb.net/heroku_687d24e53797995?reconnect=true
 //Routes
+
+app.get('/', (req, res) => {
+
+    res.send('HOLA QUE TAL');
+});
+
 app.get('/data', (req, res) => {
     const sql = 'SELECT * FROM datos';
 
